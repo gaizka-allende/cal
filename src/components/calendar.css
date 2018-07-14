@@ -1,0 +1,28 @@
+.calendar {
+  width: 25%;
+  margin: 0 auto;
+}
+
+.calendar ul {
+  list-style: none;
+}
+
+.calendar ul li {
+  float: left;
+  display: inline-block;
+  width: 14%;
+}
+
+.calendar__month, .calendar__year {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.calendar__day--current {
+  background: black;
+  color: white;
+}
+
+.calendar__day--empty {
+  visibility: hidden
+};
